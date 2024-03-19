@@ -1,0 +1,18 @@
+{
+  "architect": {
+    "app": "hono-enhance-example",
+    "http": {
+      "/*": { "method": "any", "src": "/" }
+    }
+  },
+  "scripts": {
+    "start": "sandbox"
+  },
+  "dependencies": {
+    "@enhance/ssr": "^3.5.2",
+    "hono": "^4.1.2"
+  },
+  "devDependencies": {
+    "@architect/sandbox": "^6.0.2"
+  }
+}
